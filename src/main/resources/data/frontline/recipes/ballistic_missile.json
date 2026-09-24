@@ -1,0 +1,3 @@
+{"type":"minecraft:crafting_shaped","pattern":[" I ","ITI","IFI"],
+ "key":{"I":{"item":"minecraft:iron_ingot"},"T":{"item":"minecraft:tnt"},"F":{"item":"minecraft:firework_rocket"}},
+ "result":{"item":"frontline:ballistic_missile"}}

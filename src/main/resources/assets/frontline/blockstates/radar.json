@@ -1,0 +1,1 @@
+{"variants": {"alert=false": {"model": "frontline:block/radar_base"}, "alert=true": {"model": "frontline:block/radar_base"}}}

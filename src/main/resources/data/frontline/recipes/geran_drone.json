@@ -1,0 +1,3 @@
+{"type":"minecraft:crafting_shaped","pattern":["III","PTP","GRG"],
+ "key":{"I":{"item":"minecraft:iron_ingot"},"P":{"item":"minecraft:paper"},"T":{"item":"minecraft:tnt"},"G":{"item":"minecraft:gunpowder"},"R":{"item":"minecraft:redstone"}},
+ "result":{"item":"frontline:geran_drone"}}

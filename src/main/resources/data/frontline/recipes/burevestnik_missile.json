@@ -1,0 +1,3 @@
+{"type":"minecraft:crafting_shaped","pattern":["PGP","IBI","PGP"],
+ "key":{"P":{"item":"minecraft:blaze_powder"},"G":{"item":"minecraft:glowstone_dust"},"I":{"item":"minecraft:iron_ingot"},"B":{"item":"frontline:ballistic_missile"}},
+ "result":{"item":"frontline:burevestnik_missile"}}
