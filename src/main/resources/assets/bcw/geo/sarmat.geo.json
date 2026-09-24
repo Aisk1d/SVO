@@ -1,0 +1,92 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.sarmat",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 4,
+        "visible_bounds_height": 5,
+        "visible_bounds_offset": [0, 1, 0]
+      },
+      "bones": [
+        { "name": "root", "pivot": [0, 12, 0] },
+        {
+          "name": "stage1",
+          "parent": "root",
+          "pivot": [0, 12, 0],
+          "cubes": [
+            { "comment": "wide first-stage booster", "origin": [-3, 2, -3], "size": [6, 6, 6], "uv": [0, 0] }
+          ]
+        },
+        {
+          "name": "stage2",
+          "parent": "stage1",
+          "pivot": [0, 8, 0],
+          "cubes": [
+            { "comment": "second stage, slightly narrower", "origin": [-2.5, 8, -2.5], "size": [5, 8, 5], "uv": [0, 14] }
+          ]
+        },
+        {
+          "name": "stage3",
+          "parent": "stage2",
+          "pivot": [0, 16, 0],
+          "cubes": [
+            { "comment": "third stage / bus", "origin": [-2, 16, -2], "size": [4, 6, 4], "uv": [0, 34] }
+          ]
+        },
+        {
+          "name": "warhead_shroud",
+          "parent": "stage3",
+          "pivot": [0, 22, 0],
+          "cubes": [
+            { "comment": "MIRV shroud taper stage 1", "origin": [-1.75, 22, -1.75], "size": [3.5, 3, 3.5], "uv": [0, 46] },
+            { "comment": "MIRV shroud taper stage 2", "origin": [-1.25, 25, -1.25], "size": [2.5, 2.5, 2.5], "uv": [16, 46] },
+            { "comment": "shroud nose tip", "origin": [-0.6, 27.5, -0.6], "size": [1.2, 2, 1.2], "uv": [30, 46] }
+          ]
+        },
+        {
+          "name": "fin_a",
+          "parent": "stage1",
+          "pivot": [-3, 5, 0],
+          "cubes": [
+            { "origin": [-6.5, 2, -1], "size": [3.5, 5, 2], "uv": [24, 0] }
+          ]
+        },
+        {
+          "name": "fin_b",
+          "parent": "stage1",
+          "pivot": [3, 5, 0],
+          "cubes": [
+            { "origin": [3, 2, -1], "size": [3.5, 5, 2], "uv": [24, 8] }
+          ]
+        },
+        {
+          "name": "fin_c",
+          "parent": "stage1",
+          "pivot": [0, 5, -3],
+          "cubes": [
+            { "origin": [-1, 2, -6.5], "size": [2, 5, 3.5], "uv": [40, 0] }
+          ]
+        },
+        {
+          "name": "fin_d",
+          "parent": "stage1",
+          "pivot": [0, 5, 3],
+          "cubes": [
+            { "origin": [-1, 2, 3], "size": [2, 5, 3.5], "uv": [40, 8] }
+          ]
+        },
+        {
+          "name": "engine_nozzles",
+          "parent": "stage1",
+          "pivot": [0, 2, 0],
+          "cubes": [
+            { "comment": "main nozzle cluster", "origin": [-3.2, -1, -3.2], "size": [6.4, 3, 6.4], "uv": [0, 54] }
+          ]
+        }
+      ]
+    }
+  ]
+}
