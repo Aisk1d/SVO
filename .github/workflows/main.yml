@@ -25,5 +25,5 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: frontline-mod-jar
-          path: "**/build/libs/frontline-*.jar"
+          path: "**/build/libs/*.jar"
           if-no-files-found: error
